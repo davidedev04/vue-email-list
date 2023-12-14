@@ -14,8 +14,8 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
     <ul id="list">
-        <li>
-            {{email}}
+        <li v-for="mail in emailArr">
+            {{mail}}
         </li>
     </ul>
 
